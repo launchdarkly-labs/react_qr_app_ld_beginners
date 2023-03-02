@@ -9,7 +9,6 @@ import getUserId from "./util/getUserId";
 import getClientKey from "./util/getClientKey";
 import KeyForm from "./components/keyForm";
 
-// const CLIENTKEY = "63ea528ee871791399779bc8"; // let's update this to be stored in git in the future
 const CLIENT_KEY = getClientKey();
 
 let id = getUserId();
@@ -26,6 +25,7 @@ let id = getUserId();
   } else {
     const LDProvider = await asyncWithLDProvider({
       clientSideID: CLIENT_KEY,
+      sendEventsOnlyForVariation: true,
       user: {
         key: id,
         //dynamically set these custom attributes using the deviceType and osName selectors from the npm package
