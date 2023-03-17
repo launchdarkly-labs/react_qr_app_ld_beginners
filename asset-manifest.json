@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react_qr_app_ld_beginners/static/css/main.9cc7f576.chunk.css",
-    "main.js": "/react_qr_app_ld_beginners/static/js/main.42dc131f.chunk.js",
-    "main.js.map": "/react_qr_app_ld_beginners/static/js/main.42dc131f.chunk.js.map",
+    "main.js": "/react_qr_app_ld_beginners/static/js/main.c2082029.chunk.js",
+    "main.js.map": "/react_qr_app_ld_beginners/static/js/main.c2082029.chunk.js.map",
     "runtime-main.js": "/react_qr_app_ld_beginners/static/js/runtime-main.48da0430.js",
     "runtime-main.js.map": "/react_qr_app_ld_beginners/static/js/runtime-main.48da0430.js.map",
     "static/css/2.1822d6f5.chunk.css": "/react_qr_app_ld_beginners/static/css/2.1822d6f5.chunk.css",
-    "static/js/2.11924baf.chunk.js": "/react_qr_app_ld_beginners/static/js/2.11924baf.chunk.js",
-    "static/js/2.11924baf.chunk.js.map": "/react_qr_app_ld_beginners/static/js/2.11924baf.chunk.js.map",
+    "static/js/2.4bb5ded3.chunk.js": "/react_qr_app_ld_beginners/static/js/2.4bb5ded3.chunk.js",
+    "static/js/2.4bb5ded3.chunk.js.map": "/react_qr_app_ld_beginners/static/js/2.4bb5ded3.chunk.js.map",
     "static/js/3.41215648.chunk.js": "/react_qr_app_ld_beginners/static/js/3.41215648.chunk.js",
     "static/js/3.41215648.chunk.js.map": "/react_qr_app_ld_beginners/static/js/3.41215648.chunk.js.map",
     "index.html": "/react_qr_app_ld_beginners/index.html",
     "static/css/2.1822d6f5.chunk.css.map": "/react_qr_app_ld_beginners/static/css/2.1822d6f5.chunk.css.map",
     "static/css/main.9cc7f576.chunk.css.map": "/react_qr_app_ld_beginners/static/css/main.9cc7f576.chunk.css.map",
-    "static/js/2.11924baf.chunk.js.LICENSE.txt": "/react_qr_app_ld_beginners/static/js/2.11924baf.chunk.js.LICENSE.txt",
+    "static/js/2.4bb5ded3.chunk.js.LICENSE.txt": "/react_qr_app_ld_beginners/static/js/2.4bb5ded3.chunk.js.LICENSE.txt",
     "static/media/astronaut.1d752285.png": "/react_qr_app_ld_beginners/static/media/astronaut.1d752285.png",
     "static/media/astronaut_old.09554e17.png": "/react_qr_app_ld_beginners/static/media/astronaut_old.09554e17.png",
     "static/media/heart.3d7839e5.svg": "/react_qr_app_ld_beginners/static/media/heart.3d7839e5.svg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.48da0430.js",
     "static/css/2.1822d6f5.chunk.css",
-    "static/js/2.11924baf.chunk.js",
+    "static/js/2.4bb5ded3.chunk.js",
     "static/css/main.9cc7f576.chunk.css",
-    "static/js/main.42dc131f.chunk.js"
+    "static/js/main.c2082029.chunk.js"
   ]
 }
