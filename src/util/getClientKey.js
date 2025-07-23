@@ -7,7 +7,6 @@ function getClientKey() {
         clientKey = process.env.REACT_APP_LAUNCHDARKLY_CLIENT_KEY;
     }
     
-    console.log('Final clientKey being returned:', clientKey);
     return clientKey;
 }
 
