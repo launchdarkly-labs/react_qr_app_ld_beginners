@@ -13,17 +13,18 @@ Want to use GitHub Pages to publish your own copy of this? You've come to the ri
 1. Run `npm install` in your local root directory of the project
     1. NOTE: Due to an [outstanding issue with Webpack and version 17+ of Node](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported), you must use Node version 16.X or below.
     1. NOTE: If you receive dependency errors, you can add the `--legacy-peer-deps` flag
-1. In your GitHub repository, go to Settings > Pages and create a GitHub Page. Copy the URL of your GitHub Page, for use in the next section.
+2. In your GitHub repository, go to Settings > Pages and create a GitHub Page. Copy the URL of your GitHub Page, for use in the next section.
 
 ### Modifying variables for your own usage
 
 1. In `src/components/qrCode.js`, modify `QRURL` to be your github pages URL
-1. In `package.json`, modify the "homepage" to point to your github pages URL
-1. In `src/index.js`, modify `CLIENTKEY` to be your own LaunchDarkly client-side SDK key
+2. In `package.json`, modify the "homepage" to point to your github pages URL
+3. Create a `.env` at the root of the repo and insert:`REACT_APP_LAUNCHDARKLY_CLIENT_KEY=<YOUR client-side SDK key>`
+4. Close your current terminal and start a new session to ensure the `.env` is picked up
 
 ### Flags used by the app
 
-* `config-background-color`: A **string** flag with `gray`, `purple`, `blue`, and `red` as string variations. 
+* `config-background-color`: A **string** flag with `gray`, `purple`, `blue`, and `red` as string variations.
 * `config-customer-logo`: A **string** flag with variations containing URLs of images.
 * `show-qr-code`: **boolean**
 * `release-new-ui`: A **boolean** placeholder flag which you can use as a prerequisite for other flags

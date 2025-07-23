@@ -1,12 +1,11 @@
 import QRCode from "react-qr-code";
 import { withLDConsumer } from "launchdarkly-react-client-sdk";
 
-// No more hard-coding: just use the current URL
-let QR_URL = document.location.toString();
+// Set QR URL to match the GitHub Pages deployment
+let QR_URL = "https://devopsdina.github.io/react_qr_app_ld_beginners";
 
 const qrCodeHome = ({ flags }) => {
 
-    // The React SDK automatically converts flag keys with dashes and periods to camelCase.
     // See this page for details: https://docs.launchdarkly.com/sdk/client-side/react/react-web#flag-keys
     return flags.showQrCode ? (
     <div>
