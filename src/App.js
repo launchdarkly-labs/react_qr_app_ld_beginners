@@ -10,7 +10,6 @@ import Astronaut from "./components/astronaut";
 
 function App() {
   const [headerStyle, setHeaderStyle] = useState("gray-app-header");
-  const allFlags = useFlags();
   const { configBackgroundColor } = allFlags;
   
 
