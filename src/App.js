@@ -1,7 +1,6 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { useFlags } from "launchdarkly-react-client-sdk";
-import { addResponseMessage } from 'react-chat-widget';
 import Chatbot from "./components/chatbot";
 import QRCode from "./components/qrCode";
 import HeaderLDLogo from "./components/headerLogo";
@@ -11,7 +10,8 @@ import Astronaut from "./components/astronaut";
 
 function App() {
   const [headerStyle, setHeaderStyle] = useState("gray-app-header");
-  const { configBackgroundColor } = useFlags();
+  const { configBackgroundColor } = allFlags;
+  
 
   useEffect(() => {
     setHeaderStyle("gray-app-header");
@@ -25,17 +25,12 @@ function App() {
     updateBackGroundColor();
   }, [configBackgroundColor]);
 
-
-  useEffect(() => {
-    addResponseMessage('Hi there! Ask me a question!');
-  }, []);
-
   return (
     <div className={headerStyle}>
       <div className="black-header">
         <HeaderLDLogo />
       </div>
-      
+
       <div className={headerStyle}>
         <Heart />
         <CustomerLogo />
